@@ -1,0 +1,328 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#header nav{
+    background:rgb(29, 29, 36);   
+}
+#nb1{
+    width: 100px;
+    height: 50px;
+    font-size: 13px;
+}
+#hero-section{
+    background-size: cover;
+}
+.carousel-item{
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 13px;
+    text-align: start;
+    font-weight: 600;
+    font-family: "Josefin Sans",sans-serif;
+    padding: 25px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #16d5cc;
+}
+.carousel-caption{
+    bottom: 200px;
+    margin: auto;
+}
+.carousel-caption h2{
+    font-size: 80px;
+    margin-top: 25px;
+    margin: auto;
+}
+.carousel-caption p{
+    font-size: 20px;
+    margin: auto;
+}
+.box-2{
+    height: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn1{
+    line-height: 50px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: transparent;
+    text-align: center;
+    width: 250px;
+    cursor: pointer;
+}
+.btn-two {
+    color:black;
+    transition: all 0.5s;
+    position: relative; 
+}
+.btn-two span {
+    z-index: 2; 
+    display: block;
+    position: absolute;
+    font-weight: 600;
+    width: 100%;
+    height: 100%; 
+}
+.btn-two::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid white;
+    background-color: rgba(255,255,255,0.1);
+}
+.btn-two::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid white;
+    background-color: rgba(255,255,255,0.1);
+}
+.btn-two:hover::before {
+    transform: rotate(-45deg);
+    background-color: rgba(255,255,255,0);
+}
+.btn-two:hover::after {
+    transform: rotate(45deg);
+    background-color: rgba(255,255,255,0);
+}
+#loc1{
+    background: url(../image/h1-map-rev-graphic.png);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0px auto;
+    text-align: center;
+}
+#location h2{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "Josefin Sans",sans-serif;
+}
+#location p{
+    color: gray;
+    font-size: 20px;
+}
+#location h4{
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 20px;
+}
+#location h5{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Josefin Sans",sans-serif;
+}
+#news{
+    background: url(../image/h4-img-9.png);
+    background-size: 100% 100%;
+}
+#news h2{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Josefin Sans",sans-serif;
+}
+#n1{
+    color: rgb(102, 101, 101);
+    font-size: 18px;
+    font-weight: 600;
+}
+#n2{
+    color: gray;
+}
+#video{
+    width: 100%;
+    height: 300px;
+    background: url(../image/h4-img-4.jpg);
+    background-size: 100% 100%;
+
+}
+#trip{
+    justify-content: space-between;
+}
+#t1{
+    margin-top: 100px;
+}
+#t1 h2{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Josefin Sans",sans-serif;
+}
+#t1 p{
+    color: gray;
+    font-size: 18px;
+    font-family: "Josefin Sans",sans-serif;
+}
+#blogs img{
+    width: 100%;
+    height: 300px;
+}
+#blogs h6,h3,p{
+    margin: 40px 0px 0px 50px;
+}
+#blogs h6{
+    font-size: "Josefin Sans",sans-serif;
+    font-size: 15px;
+}
+#blogs h3{
+    font-size: "Josefin Sans",sans-serif;
+    font-size: 20px;
+}
+#b1{
+    color: gray;
+    font-size: 16px;
+}
+#b2{
+    color: white;
+    font-size: 16px;
+}
+.b3{
+    font-size: 12px;
+}
+#ns1{
+    margin-top: 80px;
+}
+#newsletter h2{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Josefin Sans",sans-serif;    
+}
+#newsletter p{
+    font-size: 20px;
+    color: gray;
+    font-family: "Josefin Sans",sans-serif;   
+}
+#newsletter input,textarea{
+    border: 0px solid;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    color: black;
+    outline: none;
+}
+#advisor span{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Josefin Sans",sans-serif;
+    
+}
+#contact ul{
+    display: flex;
+    list-style: none;
+    margin: 40px auto;
+}
+#contact li{
+    padding: 5px 15px;
+    font-size: 18px;
+}
+#contact a{
+    text-decoration: none;
+    color: white;
+}
+#contact a:hover{
+    color: #16d5cc;
+}
+#c1 img{
+    width: 50px;
+    height: 50px;
+}
+.c2{
+    margin: 40px auto;
+}
+.c2 input,button{
+    border: none;
+    width: 40%;
+    background-color:#212529;
+    color: white;
+    outline: none;
+}
+#footer ul{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#footer li{
+    list-style: none;
+    padding: 0px 10px;
+    font-size: 15px;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+#footer a:hover{
+    color: #16d5cc;
+}
+.wb a{
+    position: relative;
+    display: block;
+    padding: 10px 30px;
+    width: 280px;
+    font-weight: 600;
+    border: 2px solid black;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 4px;
+    color: black;
+    text-decoration: none;
+    overflow: hidden;
+}
+.wb a span{
+    position: relative;
+    z-index: 1;
+    transition: 1s;
+}
+.wb a:hover span{
+    color: white;
+}
+.wb a .wave{
+    position: absolute;
+    top: calc(100% + 22px);
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    transition: 1s;
+}
+.wb a:hover .wave{
+    top: 0;
+    color: white;
+}
+.wb a .wave::before{
+    content: '';
+    position: absolute;
+    top: -22px;
+    left: 0;
+    width: 100%;
+    height: 22px;
+    background: url(../image/wave.png);
+    animation: animate 0.5s linear infinite;
+    
+}
+@keyframes animate
+{
+    0%{
+        background-position-x:0 ;
+    }
+    100%{
+        background-position-x: 118px;
+    }
+}

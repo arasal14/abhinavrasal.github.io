@@ -1,0 +1,348 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container-fluid{
+    background:rgb(22, 22, 22);
+}
+.navbar img{
+    width: 200px;
+}
+.navbar button{
+    background-color: orangered;
+    width: 150px;
+    height: 50px;
+}
+.navbar button:hover{
+    background-color: black;
+    color: white;
+}
+.navbar ul{
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+#img1{
+    background: url(../image/home-slide-1.jpg);
+}
+#img2{
+    background: url(../image/home-slide-2.jpg);
+}
+#img3{
+    background: url(../image/home-slide-3.jpg);
+}
+.carousel-inner h2{
+    font-size: 80px;
+    font-weight: bolder;
+}
+.carousel-inner h4{
+    font-size: 40px;
+    color: orangered;
+}
+.carousel-inner p{
+    font-size: 20px;
+    color: gray;
+}
+.carousel-inner button{
+    background-color: orangered;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.carousel-inner button:hover{
+   background-color: black;
+}
+#best{
+    background:rgb(22, 22, 22);
+    width: 100%;
+}
+#best img{
+    border-radius:100% ;
+}
+#best i{
+    border: 1px solid black;
+    border-radius: 15%;
+    font-weight: lighter;
+    padding-top: 5px;
+    width: 60px;
+    height: 50px;
+    background-color: rgb(63, 62, 62);
+    color: orangered;
+}
+#best i:hover{
+    background-color: orangered;
+    color: black;
+}
+#best h5{
+    font-family: sans-serif;
+    color: orangered;
+}
+#best h2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+#best h3{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+#best p{
+    color: gray;
+}
+#services h5{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: orangered;
+}
+#services h2{
+    font-size: 45px;
+    font-weight: 700;
+
+}
+#card1{
+    width: 100%;
+    background-color: rgb(65, 64, 64);
+    border: 30px solid rgb(65, 64, 64);
+    border-radius: 5%;
+}
+#card1 img{
+    border-radius: 5%;
+}
+#card1 img:hover{
+    opacity: 0.5;
+    transition: 0.9s;
+}
+#card1 h3{
+    font-family: "Oswald";
+    color: white;
+    font-size: 27px;
+    font-weight: 400;
+}
+#card1 h3:hover{
+    color: orangered;
+}
+#card1 p{
+    color: gray;
+    font-family: "Oswald";
+    font-size: 20px;
+}
+#video iframe{
+    border: 5px solid gray;
+}
+#trainer h5{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: orangered;
+}
+#trainer h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+#t1{
+    background: url(../image/trainer-1.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+#t2{
+    background: url(../image/trainer-2.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+#t3{
+    background: url(../image/trainer-3.jpg);
+    background-size:100% 100% ;
+    width: 100%;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+#t1:hover{
+    opacity: 0.5;
+    transition: 0.9s;
+}
+#t2:hover{
+    opacity: 0.5;
+    transition: 0.9s;
+}
+#t3:hover{
+    opacity: 0.5;
+    transition: 0.9s;
+}
+.card-title{
+    border: 0px solid orangered;
+    width: 270px;
+    height: 80px;
+    margin: 0px auto;
+    padding-top: 10px;
+    margin-top: 400px;
+    background-color: orangered;
+    color: white;
+    font-weight: lighter;
+    font-family: sans-serif;
+    border-radius: 20px 20px 20px 20px;
+}
+.card-title:hover{
+    background-color: black;
+    color: orangered;
+}
+.card-title h3{
+    font-size: 25px;
+}
+.card-title h6{
+    font-size: 15px;
+}
+#g1{
+    width: 100%;
+    height: 500px;
+    border-radius: 5%;
+}
+.g1{
+    background: url(../image/gallery-1.jpg);
+    background-size: 100% 100%;
+}
+.g1:hover{
+    opacity: 0.5;
+    transition: 0.9s;
+}
+.g2{
+    background: url(../image/gallery-2.jpg);
+    background-size: 100% 100%;
+}
+.g2:hover{
+    opacity: 0.5;
+    transition: 0.9s;
+}
+.g3{
+    background: url(../image/gallery-3.jpg);
+    background-size: 100% 100%;
+}
+.g3:hover{
+    opacity: 0.5;
+    transition: 0.9s;
+}
+.g4{
+    background: url(../image/gallery-4.jpg);
+    background-size: 100% 100%;
+}
+.g4:hover{
+    opacity: 0.5;
+    transition: 0.9s;
+}
+.g5{
+    background: url(../image/pexels-photo-3289711.jpeg);
+    background-size: 100% 100%;
+}
+.g5:hover{
+    opacity: 0.5;
+    transition: 0.9s;
+}
+.g6{
+    background: url(../image/pexels-photo-6339488.jpeg);
+    background-size: 100% 100%;
+}
+.g6:hover{
+    opacity: 0.5;
+    transition: 0.9s;
+}
+#testimonials p{
+    color: gray;
+    margin-top: 200px;
+    font-size: 20px;
+}
+#testimonials h6{
+    color: orangered;
+}
+#testimonials span{
+    font-size: 40px;
+    color: orangered;
+}
+#blogs p{
+    color: orangered;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+#blogs h3{
+    font-size: 23px;
+    color: white;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+#b1{
+    border: 2px solid black;
+    border-radius: 5%;
+}
+#b1 img{
+    border-radius: 5%;
+}
+#brands{
+    margin-top: 200px;
+}
+#end{
+    background:rgb(22, 22, 22);
+}
+#e1 p{
+    font-size: 17px;
+}
+
+#e1 ul{
+    display: flex;
+    margin: 0px 0px 0px -30px;
+}
+#e1 li{
+    list-style: none;
+    margin: 5px;
+    border-radius: 100%;
+    padding: 20px;
+    border: 1px solid white;
+    font-size: 15px;
+}
+#e1 a{
+    color: gray;
+}
+#e1 li:hover{
+    background-color: orangered;
+    color: white;
+    border: orangered;
+}
+#end li{
+    list-style: none;
+    
+}
+#e2 a{
+    text-decoration: none;
+    color: white;
+}
+#e2 a:hover{
+    color: orangered;
+}
+#e3 a{
+    text-decoration: none;
+    color: white;
+}
+#e3 a:hover{
+    color: orangered;
+}
+#e4 img{
+    width: 100%;
+    height: 80px;
+    border-radius: 5%;
+}
+#footer{
+    background:rgb(22, 22, 22);;
+}
+
